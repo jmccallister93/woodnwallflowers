@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="main.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,70 +11,69 @@
     <title>Wood n Wallflowers</title>
 </head>
 <body>
-
+    <!--Top bar logo, title, nav-->
     <div class="navbar-container">
+        <!--Logo-->
         <div class="logo">
             <a href="index.html">
-                <img src="woodnwall_logo.png" alt="Whoops! Looks like something went wrong." 
-                width="300px" height="300px">
+                <img src="img/woodnwall_logo.png" alt="Whoops! Looks like something went wrong." 
+                width="350px" height="350px">
             </a>
         </div>
-
-        <div class="header">
-            <h1>Wood n Wallflowers</h1>
-            <h1>Backdrops, Balloons, & More</h1>
-        </div>
-
+        <!--Navbar-->
         <div class="navbar-pages">
+            <ul class="navbar-ul">
+                <li class="navbar-li"><a href="#">Services</a></li>
+                <li class="navbar-li"><a href="#">Gallery</a></li>
+                <li class="navbar-li"><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <!--Social Icons-->
+        <div class="social-icons">
             <button class="schedule-btn">
                 Schedule Today
             </button>
-            <ul class="navbar-ul">
-                <li class="navbar-li">Services</li>
-                <li class="navbar-li">Gallery</li>
-                <li class="navbar-li">Contact</li>
+            <ul class="social-ul">
+                <li class="social-li">
+                    <a href="#" class="fa fa-instagram"></a>
+                </li>
+                <li class="social-li">
+                    <a href="#" class="fa fa-facebook"></a>
+                </li>
+                <li class="social-li">
+                    <a href="#" class="fa fa-google"></a>
+                </li>
             </ul>
         </div>
     </div>
 
-    <div class="slideshow-container">
-
-        <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="img1.jpg" style="width:100%">
-            <div class="text">Caption Text</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="img2.jpg" style="width:100%">
-            <div class="text">Caption Two</div>
-        </div>
-        
-        <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="img3.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
-        </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <!--image slider start-->
+    <div class="slider-container">
+       <img src="img/img0.PNG" alt="">
     </div>
 
-    <br>
-
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
-    
     <div class="tiles-container">
 
     </div>
 
     <div class="footer-container">
-
-    </div>
+            <p class="footer-copyright">
+            Copyright 2022. All Rights Reserved.
+            </p>
+            <footer class="footer-social">
+            <ul class="footer-ul">
+                <li class="social-li">
+                    <a href="#" class="fa fa-instagram"></a>
+                </li>
+                <li class="social-li">
+                    <a href="#" class="fa fa-facebook"></a>
+                </li>
+                <li class="social-li">
+                    <a href="#" class="fa fa-google"></a>
+                </li>
+            </ul>
+            </footer>
+        </div>
 
 </body>
 </html>
