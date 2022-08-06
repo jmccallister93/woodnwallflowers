@@ -11,6 +11,10 @@
     color: #777;
 }
 
+a{
+    text-decoration: none;
+}
+
 html, body{
     margin: 0;
     padding: 0;
@@ -23,7 +27,7 @@ html, body{
 
 .logo-anchor{
     text-align: center;
-    grid-column: 1 / span 2
+    grid-column: 1 / span 2;
 }
 
 .logo{
