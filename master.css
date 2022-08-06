@@ -103,3 +103,59 @@ html, body{
     border-radius: 5%;
 }
 
+.content-section{
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr);
+    grid-area: content;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+.section-header{
+    text-align: center;
+    font-size: 5em;
+    margin: 0;
+    align-self: center;
+}
+
+.image-boxes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.image-box{
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+    
+}
+
+.image-boxes img{
+    height: 300px;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+.image-box-title{
+    font-size: 2em;
+    text-align: center;
+    border-bottom: 1px solid #777;
+    margin: 5px;
+    padding: 5px;
+}
+
+.image-box-btn{
+    text-align: center;
+    align-self: center;
+    margin: 10px;
+    width: 250px;
+    height: auto;
+    font-weight: bold;
+    font-size: 1.75em;
+    background-color: rgb(9, 88, 3, .3);
+    color: black;
+}
