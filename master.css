@@ -76,7 +76,7 @@ html, body{
 }
 
 .nav-li a:hover{
-    background-color: rgba(217, 212, 212, 0.3);
+    font-weight: bold;
     color: green;
     border-radius: 5%;
 }
@@ -92,15 +92,15 @@ html, body{
     border: none;
     list-style-type: none;
     display: inline-block;
-    font-size: 1.5em;
+    font-size: 2.5em;
     padding-left: 30px;
 
 }
 
 .social-li a:hover{
-    background-color: rgba(217, 212, 212, 0.3);
     color: green;
     border-radius: 5%;
+    font-weight: bold;
 }
 
 .content-section{
@@ -117,7 +117,24 @@ html, body{
     text-align: center;
     font-size: 5em;
     margin: 0;
+    margin-bottom: 30px;
     align-self: center;
+}
+
+.big-image{
+    text-align: center;
+}
+
+.big-image img{
+    height: 60em;
+    width: auto;
+}
+
+#h3-break{
+    border: none;
+    font-size: 4em;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 
 .image-boxes{
@@ -158,4 +175,17 @@ html, body{
     font-size: 1.75em;
     background-color: rgb(9, 88, 3, .3);
     color: black;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer-social a{
+    text-decoration: none;
 }
