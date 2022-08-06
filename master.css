@@ -1,94 +1,105 @@
+@font-face{
+    font-family: "DancingScript";
+    src: url("fonts/DancingScript.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "DancingScript";
+    color: #777;
+}
+
 html, body{
     margin: 0;
     padding: 0;
-    font-family: "cursive";
 }
-.navbar-container{
-    display: grid;
-    grid-gap: 3px;
-    justify-content: center;
-    align-items: center;
+
+.main-header{
     margin: 0;
-    position: relative;
-    top: 0;
-    grid-template-columns: repeat(5, 1fr);
+    padding: 0;
+}
+
+.logo-anchor{
+    text-align: center;
+    grid-column: 1 / span 2
 }
 
 .logo{
+    height: 20em;
+    width: auto;
+    
+}
+
+.container{
     display: grid;
+    grid-template-columns: repeat(4,1fr);
     justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
-    grid-column: 1 / span 3;
 }
 
-.navbar-pages{
-    display: grid;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
+.nav{
+    grid-column: 3 / span 4;
 }
 
-.navbar-ul{
-    list-style-type: none;
-    padding: 5px;
-    margin: 10px;
-    grid-column-start: 2;
-    grid-column-end: 5;
-
-}
-
-.navbar-ul a{
+.nav a{
     text-decoration: none;
 }
 
-.navbar-li{
-    display: inline;
+.nav-ul{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.nav-ul{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0;
+}
+
+.nav-li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 2.2em;
+    border-bottom: .5px solid #777;
     padding: 5px;
-    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 20px;
 }
 
-/* FOOTER */
-.footer-container{
-    background-color: #a19b9b;
-    display: grid;
-    grid-gap: 3px;
-    justify-content: flex-end;
-    margin: 0;
-    position: static;
-    bottom: 0;
-    width: 100%;
-    align-items: end;
-    grid-template-columns: repeat(5, 1fr);
-}
-
-.footer-social{
-    grid-column: 5;
+.nav-li a:hover{
+    background-color: rgba(217, 212, 212, 0.3);
+    color: green;
+    border-radius: 5%;
 }
 
 .social-ul{
-    list-style-type: none;
-    padding: 5px;
-    margin: 10px;
-    justify-self: end; 
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0px;
 }
 
 .social-li{
-    color: white;
-    display: inline;
-    padding: 5px;
-    font-size: 20px;
+    border: none;
+    list-style-type: none;
+    display: inline-block;
+    font-size: 1.5em;
+    padding-left: 30px;
+
 }
 
-.footer-li:hover a{
-    color: whitesmoke;
-    font-weight: bold;
+.social-li a:hover{
+    background-color: rgba(217, 212, 212, 0.3);
+    color: green;
+    border-radius: 5%;
 }
 
-.footer-copyright{
-    grid-column: 1;
-    font-size: 14px;
-    color: white;
-    padding: 5px;
-    justify-self: start;
-}
