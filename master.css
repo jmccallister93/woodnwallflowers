@@ -12,7 +12,9 @@
 }
 
 a{
+
     text-decoration: none;
+
 }
 
 html, body{
@@ -28,17 +30,21 @@ html, body{
 .logo-anchor{
     text-align: center;
     grid-column: 1 / span 2;
+    
 }
 
 .logo{
     height: 20em;
     width: auto;
     
+    
 }
 
 .container{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    /* grid-template-columns: repeat(4,1fr); */
+    grid-template-rows: auto minmax(0, 1fr);
+    grid-area: content;
     justify-content: center;
     align-items: center;
     margin: 0;
@@ -192,4 +198,33 @@ html, body{
 
 .footer-social a{
     text-decoration: none;
+}
+
+.gallery-section{
+    
+}
+
+.gallery-boxes{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    text-align: center;
+    margin: 0px;
+    padding: 0;
+    justify-items: center;
+    max-width: max-content;
+}
+
+.gallery-box{
+    height: 30em;
+    width: auto;
+    margin: 20px;
+}
+
+.gallery-box img{
+    height: 30em;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    min-width: 0;
 }
