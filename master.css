@@ -245,10 +245,16 @@ html, body{
     
 }
 
-.services-ul li{
+.services-title{
     border-bottom: .5px solid #777;
-    margin-left: 40px;
-    margin-right: 40px;
+    min-width:50%;
+    max-width:50%;
+    text-align:center;
+    margin:0 auto;
+}
+
+.services-ul li{
+    text-align: center;
 }
 
 .style{
