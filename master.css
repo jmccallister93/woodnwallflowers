@@ -12,9 +12,7 @@
 }
 
 a{
-
     text-decoration: none;
-
 }
 
 html, body{
@@ -227,4 +225,65 @@ html, body{
     max-height: 100%;
     overflow: hidden;
     min-width: 0;
+}
+
+.contact-content{
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.services-ul{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    text-align: center;
+    font-size: 3em;
+    justify-content: center;
+    align-items: flex-start;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.services-ul li{
+    border-bottom: .5px solid #777;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.style{
+    font-size: .6em;
+    margin-right: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.price{
+    font-size: .6em;
+    margin-left: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.sample-img{
+    height: 5em;
+    width: auto;
+}
+
+.contact-us{
+    display: grid;
+    align-self: center;
+    justify-content: center;
+}
+
+.contact-btn{
+    text-align: center;
+    margin: 30px;
+    width: 250px;
+    height: auto;
+    font-weight: bold;
+    font-size: 1.75em;
+    background-color: rgb(9, 88, 3, .3);
+    color: black;
 }
