@@ -209,7 +209,6 @@ html, body{
     margin: 0px;
     padding: 0;
     justify-items: center;
-    max-width: max-content;
 }
 
 .gallery-box{
@@ -264,6 +263,11 @@ html, body{
     margin-left: 20px;
     font-weight: bold;
     color: black;
+}
+
+.wooden-wall-backdrops{
+    display: grid;
+
 }
 
 .sample-img{
