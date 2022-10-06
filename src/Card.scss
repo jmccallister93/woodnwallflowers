@@ -1,0 +1,59 @@
+.card__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.card {
+  display: block;
+  height: 50vh;
+  border: 1px solid;
+  border-radius: 5px;
+  width: calc(30vw - 120px);
+  color: #367e18;
+  padding: 0;
+  background-image: linear-gradient(#b2ea70, #1e5128);
+  overflow: hidden;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, .3);
+  transition: 0.5s;
+
+  &:hover{
+    box-shadow: 1px 1px 15px 5px rgba(30, 81, 40, 1);
+    scale: 1.05;
+  }
+}
+
+#card__gallery {
+  background-image: linear-gradient(to bottom, transparent, #eef2e6),
+    url("../src/Images/bridal_shower.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#card__pricing {
+  background-image: linear-gradient(to bottom, transparent, #eef2e6),
+    url("../src/Images/wine_barrel.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#card__contact {
+  background-image: linear-gradient(to bottom, transparent, #eef2e6),
+    url("../src/Images/champ_wall2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.card__image {
+  max-width: 100%;
+  height: 40vh;
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
+}
+
+.card__text {
+  font-family: "DancingScript";
+  font-size: 42px;
+  margin-top: 40vh;
+}

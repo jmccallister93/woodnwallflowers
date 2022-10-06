@@ -1,0 +1,42 @@
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #3E7C17;
+}
+
+.logo {
+  height: 20vh;
+  margin: 0 auto;
+}
+
+.links__wrapper{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+  display: flex; 
+  text-decoration: none;
+  list-style-type: none;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.links-item {
+  transition: 0.5s;
+  padding: 5px;
+
+  &:hover {
+    border-radius: 2px;
+    color: #eef2e6;
+    background-color: #367e18;
+  }
+}

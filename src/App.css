@@ -1,0 +1,12 @@
+@font-face{
+  font-family: "DancingScript";
+  src: url("fonts/DancingScript.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.html, body{
+  margin: 0;
+  padding: 0;
+  background-color: #FEF5ED;
+}
