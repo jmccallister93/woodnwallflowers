@@ -1,12 +1,20 @@
-
-import './App.css';
-import Navbar from './Navbar';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./App.css";
+import Home from "./Home";
+import Navbar from "./Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <div className="content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </div>
+      </div>
+    </Router>
   );
 }
 
