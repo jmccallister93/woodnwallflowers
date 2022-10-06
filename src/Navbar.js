@@ -9,10 +9,18 @@ const Navbar = () => {
     <div className="links__wrapper">
       <Socials />
       <ul className="links">
-        <li className="links-item">Home</li>
-        <li className="links-item">Pricing</li>
-        <li className="links-item">Gallery</li>
-        <li className="links-item">Contact</li>
+        <Link to="/" style={{ textDecoration: "none", color: '#3E7C17' }}>
+          <li className="links-item">Home</li>
+        </Link>
+        <Link to="/pricing" style={{ textDecoration: "none", color: '#3E7C17' }}>
+          <li className="links-item">Pricing</li>
+        </Link>
+        <Link to="/gallery" style={{ textDecoration: "none", color: '#3E7C17' }}>
+          <li className="links-item">Gallery</li>
+        </Link>
+        <Link to="/contact" style={{ textDecoration: "none", color: '#3E7C17' }}>
+          <li className="links-item">Contact</li>
+        </Link>
       </ul>
     </div>
   );

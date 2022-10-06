@@ -3,6 +3,7 @@ import "./App.css";
 import Footer from "./Footer";
 import Home from "./Home";
 import Navbar from "./Navbar";
+import Pricing from "./Pricing";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <div className="content">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/pricing" element={<Pricing/>} />
           </Routes>
         </div>
         <Footer/>
