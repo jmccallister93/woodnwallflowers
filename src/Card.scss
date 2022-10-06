@@ -1,0 +1,39 @@
+.card__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.card {
+  display: block;
+  height: 50vh;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: #367e18;
+  width: 90%;
+  color: white;
+  padding: 10px;
+  background: linear-gradient(9.5rem, 27vh);
+}
+
+.card__image {
+  max-width: auto;
+  height: 40vh;
+  border-radius: 5px;
+}
+
+.card__container {
+  padding: 2px 16px;
+}
+
+.card__button {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: #367e18;
+  transition: 0.5s;
+
+  &:hover {
+    background-color: blue;
+  }
+}
