@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 import Socials from "./Socials";
 
 const Navbar = () => {
-  const navLogo = <img src={logo} alt="No img" className="logo" />;
+  const navLogo = <Link to="/woodnwallflowers"><img src={logo} alt="No img" className="logo" /></Link>
   const navLinks = (
     <div className="links__wrapper">
       <Socials />
       <ul className="links">
-        <Link to="/" style={{ textDecoration: "none", color: '#3E7C17' }}>
+        <Link to="/woodnwallflowers" style={{ textDecoration: "none", color: '#3E7C17' }}>
           <li className="links-item">Home</li>
         </Link>
         <Link to="/pricing" style={{ textDecoration: "none", color: '#3E7C17' }}>

@@ -1,4 +1,4 @@
-.home {
+.pricing {
   display: grid;
   text-align: center;
   justify-content: center;
@@ -6,12 +6,7 @@
   color: #3e7c17;
 }
 
-.home__header {
+.pricing__header {
   font-family: "DancingScript";
-  font-size: 68px;
-}
-
-.home__subheader {
-  font-size: 36px;
-  margin-bottom: 20px;
+  font-size: 42px;
 }
