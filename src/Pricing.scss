@@ -4,9 +4,19 @@
   justify-content: center;
   align-items: center;
   color: #3e7c17;
+
 }
 
 .pricing__header {
   font-family: "DancingScript";
-  font-size: 42px;
+  font-size: 68px;
+}
+
+.pricing__rentals-ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+.pricing__rentals-li-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
