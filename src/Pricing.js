@@ -1,5 +1,5 @@
 import "./Pricing.scss";
-import price_list from "../src/Images/price_list.png";
+import { Link } from "react-router-dom";
 
 const Pricing = () => {
   return (
@@ -40,7 +40,13 @@ const Pricing = () => {
             </div>
           </ul>
           <br />
-          <button className="view-examples">Examples</button>
+          <Link
+            to={"/gallery/rentals"}
+            style={{ textDecoration: "none", color: "#3E7C17" }}
+          >
+            {" "}
+            <button className="view-examples">Examples</button>
+          </Link>
         </div>
         <div className="pricing__rentals">
           <span className="pricing__subheaders" id="styling-options">
@@ -71,7 +77,13 @@ const Pricing = () => {
               </div>
             </ul>
             <br />
+            <Link
+            to={"/gallery/balloons"}
+            style={{ textDecoration: "none", color: "#3E7C17" }}
+          >
+            {" "}
             <button className="view-examples">Examples</button>
+            </Link>
           </div>
           <span className="pricing__subheaders" id="circle-arch-options">
             Circle Arch Options
@@ -88,7 +100,13 @@ const Pricing = () => {
               </div>
             </ul>
             <br />
+            <Link
+            to={"/gallery/circles"}
+            style={{ textDecoration: "none", color: "#3E7C17" }}
+          >
+            {" "}
             <button className="view-examples">Examples</button>
+            </Link>
           </div>
         </div>
         <div className="pricing__rentals">
@@ -126,7 +144,13 @@ const Pricing = () => {
               <li className="pricing__rentals-li-price">$TBD</li>
             </div>
             <br />
+            <Link
+            to={"/gallery/signs"}
+            style={{ textDecoration: "none", color: "#3E7C17" }}
+          >
+            {" "}
             <button className="view-examples">Examples</button>
+            </Link>
           </ul>
         </div>
       </div>

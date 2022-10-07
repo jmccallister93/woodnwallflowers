@@ -65,6 +65,7 @@ const GalleryRentals = () => {
             alt=""
           />
           <img className="filteredDiv rentals" src={champwall1} alt="" />
+          <img className="filteredDiv rentals" src={momosa} alt="" />
         </div>
         <div className="column">
           <img className="filteredDiv rentals" src={champwall2} alt="" />
@@ -78,9 +79,6 @@ const GalleryRentals = () => {
             src={valentines}
             alt=""
           />
-        </div>
-        <div className="column">
-          <img className="filteredDiv rentals" src={momosa} alt="" />
           <img className="filteredDiv rentals" src={wedding} alt="" />
         </div>
       </div>

@@ -42,13 +42,13 @@ const GallerySigns = () => {
             src={bridalshower1}
             alt=""
           />
+        </div>
+        <div className="column">
           <img
             className="filteredDiv rentals balloons signs"
             src={bridalshower2}
             alt=""
           />
-        </div>
-        <div className="column">
           <img
             className="filteredDiv rentals circles signs"
             src={valentines}

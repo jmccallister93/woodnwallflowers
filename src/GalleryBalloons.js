@@ -14,11 +14,11 @@ import wine from "../src/Images/wine_barrel.jpg";
 import GalleryLinks from "./GalleryLinks";
 
 const GalleryBalloons = () => {
-    return ( 
-        <>
-    <span className="title">Balloon Garlands</span>
-    <GalleryLinks />
-    <div className="row">
+  return (
+    <>
+      <span className="title">Balloon Garlands</span>
+      <GalleryLinks />
+      <div className="row">
         <div className="column">
           <img
             className="filteredDiv rentals balloons signs"
@@ -35,9 +35,9 @@ const GalleryBalloons = () => {
             src={birthday30}
             alt=""
           />
+          <img className="filteredDiv balloons" src={birthday40} alt="" />
         </div>
         <div className="column">
-          <img className="filteredDiv balloons" src={birthday40} alt="" />
           <img
             className="filteredDiv rentals balloons signs"
             src={bridalshower1}
@@ -48,24 +48,22 @@ const GalleryBalloons = () => {
             src={bridalshower2}
             alt=""
           />
-        </div>
-        <div className="column">
           <img
             className="filteredDiv rentals balloons"
             src={christmas}
             alt=""
           />
           <img className="filteredDiv balloons" src={halloween} alt="" />
-          <img className="filteredDiv balloons" src={stpatricks} alt="" />
         </div>
         <div className="column">
+          <img className="filteredDiv balloons" src={stpatricks} alt="" />
           <img className="filteredDiv balloons" src={couch} alt="" />
           <img className="filteredDiv balloons" src={flamingo} alt="" />
           <img className="filteredDiv balloons" src={wine} alt="" />
         </div>
       </div>
     </>
-     );
-}
- 
+  );
+};
+
 export default GalleryBalloons;
