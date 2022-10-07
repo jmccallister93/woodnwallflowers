@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/woodnwallflowers/static/css/main.d7ef6da9.css",
-    "main.js": "/woodnwallflowers/static/js/main.11378578.js",
+    "main.css": "/woodnwallflowers/static/css/main.87cdaf70.css",
+    "main.js": "/woodnwallflowers/static/js/main.5ad57cc4.js",
     "static/media/champ_wall2.jpg": "/woodnwallflowers/static/media/champ_wall2.71b84ac42c42fc2eed25.jpg",
     "static/media/bridal_shower.jpg": "/woodnwallflowers/static/media/bridal_shower.acc1510ffd646dbeffdc.jpg",
     "static/media/wine_barrel.jpg": "/woodnwallflowers/static/media/wine_barrel.e86812a29446144a8cfe.jpg",
@@ -9,11 +9,11 @@
     "static/media/price_list.png": "/woodnwallflowers/static/media/price_list.9fa985e873f224b0cbab.png",
     "static/media/DancingScript.woff2": "/woodnwallflowers/static/media/DancingScript.3aad767d1e7a7b126124.woff2",
     "index.html": "/woodnwallflowers/index.html",
-    "main.d7ef6da9.css.map": "/woodnwallflowers/static/css/main.d7ef6da9.css.map",
-    "main.11378578.js.map": "/woodnwallflowers/static/js/main.11378578.js.map"
+    "main.87cdaf70.css.map": "/woodnwallflowers/static/css/main.87cdaf70.css.map",
+    "main.5ad57cc4.js.map": "/woodnwallflowers/static/js/main.5ad57cc4.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7ef6da9.css",
-    "static/js/main.11378578.js"
+    "static/css/main.87cdaf70.css",
+    "static/js/main.5ad57cc4.js"
   ]
 }
