@@ -6,6 +6,7 @@ import Gallery from "./Gallery";
 import GalleryBalloons from "./GalleryBalloons";
 import GalleryCircles from "./GalleryCircles";
 import GalleryRentals from "./GalleryRentals";
+import GallerySigns from "./GallerySigns";
 import Home from "./Home";
 import Navbar from "./Navbar";
 import Pricing from "./Pricing";
@@ -25,6 +26,7 @@ function App() {
               <Route path="/gallery/rentals" element={<GalleryRentals />} />
               <Route path="/gallery/balloons" element={<GalleryBalloons />} />
               <Route path="/gallery/circles" element={<GalleryCircles />} />
+              <Route path="/gallery/signs" element={<GallerySigns />} />
               <Route path="/contact" element={<Contact />} />
             </Routes>
           </div>
