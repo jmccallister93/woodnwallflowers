@@ -1,6 +1,8 @@
 .footer{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    bottom: 0;
     text-align: center;
     justify-items: center;
     align-items: center;
