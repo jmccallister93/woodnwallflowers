@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Socials from "./Socials";
 
 const Navbar = () => {
-  const navLogo = <Link to="/woodnwallflowers"><img src={logo} alt="No img" className="logo" /></Link>
+  const navLogo = <img src={logo} alt="No img" className="logo" />
   const navLinks = (
     <div className="links__wrapper">
       <Socials />

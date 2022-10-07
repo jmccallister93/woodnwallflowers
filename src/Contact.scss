@@ -1,5 +1,12 @@
+.app__wrapper{
+    min-height: fit-content;
+}
+.contact{
+    margin: 0;
+}
+
 .title {
-    display: flex;
+    display: inline-block;
     text-align: center;
     align-content: center;
     justify-content: center;
@@ -10,8 +17,10 @@
   }
 
 .content{
+    margin: 25px;
+    padding: 50px;
     color: #809a6f;
     font-size: 48px;
     text-align: center;
-    height: 70vh;
+    height: 40vh;
 }

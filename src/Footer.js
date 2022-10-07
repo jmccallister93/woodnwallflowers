@@ -4,7 +4,7 @@ const Footer = () => {
     return ( 
         <div className="footer">
             <span className="footer__copyright">All Rights Reserved 2022</span>
-            <Socials />
+            <Socials className="footer__social"/>
         </div>
         
      );

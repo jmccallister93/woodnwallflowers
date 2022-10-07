@@ -1,13 +1,19 @@
 .footer{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    position: relative;
-    bottom: 0;
+    display: inline-block;
     text-align: center;
     justify-items: center;
-    align-items: center;
+    align-items: stretch;
     color: #3E7C17;
-    margin-top: 20px;
+    margin: 0;
     padding: 0;
-    height: 5vh;
+    height: 2.5vh;
+    width: 100%;
+}
+
+.footer__copyright{
+    justify-content: flex-start;
+}
+
+.footer__social{
+    justify-content: flex-end;
 }
