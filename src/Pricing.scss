@@ -3,7 +3,7 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  color: #3e7c17;
+  color: #809A6F;
   height: 70vh;
 
 }
@@ -11,6 +11,7 @@
 .pricing__header {
   font-family: "DancingScript";
   font-size: 68px;
+  color: #3e7c17;
 }
 
 .pricing__subheaders{
@@ -19,7 +20,7 @@
     border-bottom: 1px solid #3e7c17;
     align-content: center;
     width: fit-content;
-    
+    color: #3e7c17;
 }
 #balloon-garlands{
     font-size: 40px;
@@ -67,4 +68,24 @@
 
 .pricing__rentals-li-price{
     text-align: end;
+}
+
+.view-examples{
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #809A6F;
+    border: 1px solid #809A6F;
+    border-radius: 5px;
+    font-size: 36px;
+    color: #eef2e6;
+    box-shadow: 5px 5px 5px 1px rgba(95, 116, 100, 1)
+    ;
+    transition: 0.5s;
+    &:hover{
+        background-color: #3e7c17;
+        scale: 1.02;
+        box-shadow: 1px 1px 15px 5px rgba(95, 116, 100, 1)
+        ;
+    }
 }
