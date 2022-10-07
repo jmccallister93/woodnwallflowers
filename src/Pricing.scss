@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   color: #3e7c17;
+  height: 70vh;
 
 }
 
@@ -12,11 +13,58 @@
   font-size: 68px;
 }
 
+.pricing__subheaders{
+    font-size: 48px;
+    padding: 2px;
+    border-bottom: 1px solid #3e7c17;
+    align-content: center;
+    width: fit-content;
+    
+}
+#balloon-garlands{
+    font-size: 40px;
+    
+}
+#circle-arch-options{
+    font-size: 40px;
+}
+
+.pricing__wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 36px;
+    padding: 50px;
+    gap: 10px;
+    text-align: center;
+}
+
+.pricing__rentals{
+    box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    display: block;
+    text-align: center;
+    
+    
+}
+
 .pricing__rentals-ul{
     text-decoration: none;
     list-style-type: none;
+    display: inline-block;
+    
+    
 }
 .pricing__rentals-li-wrapper{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    border-bottom: 1px dotted #3e7c17;
+    padding: 5px;
+}
+
+.pricing__rentals-li-title{
+    text-align: start;
+}
+
+.pricing__rentals-li-price{
+    text-align: end;
 }
