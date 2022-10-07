@@ -1,19 +1,36 @@
 {
   "files": {
-    "main.css": "/woodnwallflowers/static/css/main.87cdaf70.css",
-    "main.js": "/woodnwallflowers/static/js/main.5ad57cc4.js",
+    "main.css": "/woodnwallflowers/static/css/main.cbff2462.css",
+    "main.js": "/woodnwallflowers/static/js/main.57c6ca3b.js",
+    "static/media/wedding_board.jpg": "/woodnwallflowers/static/media/wedding_board.ea65c498efdfd58f2454.jpg",
+    "static/media/couch.PNG": "/woodnwallflowers/static/media/couch.ace821d2b6b0e5e80c94.PNG",
     "static/media/champ_wall2.jpg": "/woodnwallflowers/static/media/champ_wall2.71b84ac42c42fc2eed25.jpg",
+    "static/media/bridal_shower2.jpg": "/woodnwallflowers/static/media/bridal_shower2.21007aa0f3bdf814982b.jpg",
+    "static/media/champ_wall.jpg": "/woodnwallflowers/static/media/champ_wall.97190dcdf871555d4724.jpg",
     "static/media/bridal_shower.jpg": "/woodnwallflowers/static/media/bridal_shower.acc1510ffd646dbeffdc.jpg",
     "static/media/wine_barrel.jpg": "/woodnwallflowers/static/media/wine_barrel.e86812a29446144a8cfe.jpg",
+    "static/media/class_halloween.jpg": "/woodnwallflowers/static/media/class_halloween.17adfb6489d09eabe062.jpg",
+    "static/media/momosa.jpg": "/woodnwallflowers/static/media/momosa.1c7f0b7054b5b89147cc.jpg",
+    "static/media/birthday_1.jpg": "/woodnwallflowers/static/media/birthday_1.956189ea40c10bde3193.jpg",
+    "static/media/baby_shower.jpg": "/woodnwallflowers/static/media/baby_shower.637ca465b0a6bde74896.jpg",
+    "static/media/flamingo.jpg": "/woodnwallflowers/static/media/flamingo.835efd692420fbc41dfa.jpg",
+    "static/media/class_stpatricks.jpg": "/woodnwallflowers/static/media/class_stpatricks.9fd7174813c61c4930d9.jpg",
+    "static/media/birthday_circle.jpg": "/woodnwallflowers/static/media/birthday_circle.5a8170e50d5301844bd2.jpg",
+    "static/media/class_christmas.jpg": "/woodnwallflowers/static/media/class_christmas.cf96729b20bca9fca3f0.jpg",
+    "static/media/class_valentines.jpg": "/woodnwallflowers/static/media/class_valentines.456ec7091eb56f052076.jpg",
+    "static/media/bank_circle.jpg": "/woodnwallflowers/static/media/bank_circle.e3c1954d96b9c7729a86.jpg",
+    "static/media/birthday_40.jpg": "/woodnwallflowers/static/media/birthday_40.428b7e125ac0bcb1816d.jpg",
+    "static/media/this_is_13.jpg": "/woodnwallflowers/static/media/this_is_13.ace1cfe9762943337cb0.jpg",
+    "static/media/birthday_30.png": "/woodnwallflowers/static/media/birthday_30.93f87fb5730a6e67a039.png",
     "static/media/wnw_logo.png": "/woodnwallflowers/static/media/wnw_logo.ca4ba95a535a1a5ba43a.png",
     "static/media/price_list.png": "/woodnwallflowers/static/media/price_list.9fa985e873f224b0cbab.png",
     "static/media/DancingScript.woff2": "/woodnwallflowers/static/media/DancingScript.3aad767d1e7a7b126124.woff2",
     "index.html": "/woodnwallflowers/index.html",
-    "main.87cdaf70.css.map": "/woodnwallflowers/static/css/main.87cdaf70.css.map",
-    "main.5ad57cc4.js.map": "/woodnwallflowers/static/js/main.5ad57cc4.js.map"
+    "main.cbff2462.css.map": "/woodnwallflowers/static/css/main.cbff2462.css.map",
+    "main.57c6ca3b.js.map": "/woodnwallflowers/static/js/main.57c6ca3b.js.map"
   },
   "entrypoints": [
-    "static/css/main.87cdaf70.css",
-    "static/js/main.5ad57cc4.js"
+    "static/css/main.cbff2462.css",
+    "static/js/main.57c6ca3b.js"
   ]
 }
