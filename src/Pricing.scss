@@ -79,13 +79,11 @@
     border-radius: 5px;
     font-size: 36px;
     color: #eef2e6;
-    box-shadow: 5px 5px 5px 1px rgba(95, 116, 100, 1)
-    ;
+    box-shadow: 5px 5px 5px 1px rgba(95, 116, 100, 1);
     transition: 0.5s;
     &:hover{
         background-color: #3e7c17;
         scale: 1.02;
-        box-shadow: 1px 1px 15px 5px rgba(95, 116, 100, 1)
-        ;
+        box-shadow: 1px 1px 15px 5px rgba(95, 116, 100, 1);
     }
 }

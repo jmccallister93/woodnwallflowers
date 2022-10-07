@@ -40,49 +40,55 @@ const Pricing = () => {
             </div>
           </ul>
           <br />
-          <button className="view-examples">View Examples</button>
+          <button className="view-examples">Examples</button>
         </div>
         <div className="pricing__rentals">
-          <span className="pricing__subheaders" id="styling-options">Styling Options</span>
+          <span className="pricing__subheaders" id="styling-options">
+            Styling Options
+          </span>
           <br />
           <br />
-          <span className="pricing__subheaders" id="balloon-garlands">Balloon Garlands</span>
+          <span className="pricing__subheaders" id="balloon-garlands">
+            Balloon Garlands
+          </span>
           <div className="pricing__subsection">
-          <ul className="pricing__rentals-ul">
-            <div className="pricing__rentals-li-wrapper">
-              <li className="pricing__rentals-li-title">5ft</li>
-              <li className="pricing__rentals-li-price">$150+</li>
-            </div>
-            <div className="pricing__rentals-li-wrapper">
-              <li className="pricing__rentals-li-title">10ft</li>
-              <li className="pricing__rentals-li-price">$275+</li>
-            </div>
-            <div className="pricing__rentals-li-wrapper">
-              <li className="pricing__rentals-li-title">15ft</li>
-              <li className="pricing__rentals-li-price">$375+</li>
-            </div>
-            <div className="pricing__rentals-li-wrapper">
-              <li className="pricing__rentals-li-title">20ft</li>
-              <li className="pricing__rentals-li-price">$475+</li>
-            </div>
+            <ul className="pricing__rentals-ul" id="garland-ft">
+              <div className="pricing__rentals-li-wrapper">
+                <li className="pricing__rentals-li-title">5ft</li>
+                <li className="pricing__rentals-li-price">$150+</li>
+              </div>
+              <div className="pricing__rentals-li-wrapper">
+                <li className="pricing__rentals-li-title">10ft</li>
+                <li className="pricing__rentals-li-price">$275+</li>
+              </div>
+              <div className="pricing__rentals-li-wrapper">
+                <li className="pricing__rentals-li-title">15ft</li>
+                <li className="pricing__rentals-li-price">$375+</li>
+              </div>
+              <div className="pricing__rentals-li-wrapper">
+                <li className="pricing__rentals-li-title">20ft</li>
+                <li className="pricing__rentals-li-price">$475+</li>
+              </div>
             </ul>
             <br />
-          <button className="view-examples">View Examples</button>
-            </div>
-            <span className="pricing__subheaders" id="circle-arch-options">Circle Arch Options</span>
-            <div className="pricing__subsection">
+            <button className="view-examples">Examples</button>
+          </div>
+          <span className="pricing__subheaders" id="circle-arch-options">
+            Circle Arch Options
+          </span>
+          <div className="pricing__subsection">
             <ul className="pricing__rentals-ul">
-            <div className="pricing__rentals-li-wrapper">
-              <li className="pricing__rentals-li-title">180 degrees</li>
-              <li className="pricing__rentals-li-price">$300+</li>
-            </div>
-            <div className="pricing__rentals-li-wrapper">
-              <li className="pricing__rentals-li-title">360 degrees</li>
-              <li className="pricing__rentals-li-price">$375+</li>
-            </div>
-          </ul>
-          <br />
-          <button className="view-examples">View Examples</button>
+              <div className="pricing__rentals-li-wrapper">
+                <li className="pricing__rentals-li-title">180 degrees</li>
+                <li className="pricing__rentals-li-price">$300+</li>
+              </div>
+              <div className="pricing__rentals-li-wrapper">
+                <li className="pricing__rentals-li-title">360 degrees</li>
+                <li className="pricing__rentals-li-price">$375+</li>
+              </div>
+            </ul>
+            <br />
+            <button className="view-examples">Examples</button>
           </div>
         </div>
         <div className="pricing__rentals">
@@ -120,7 +126,7 @@ const Pricing = () => {
               <li className="pricing__rentals-li-price">$TBD</li>
             </div>
             <br />
-          <button className="view-examples">View Examples</button>
+            <button className="view-examples">Examples</button>
           </ul>
         </div>
       </div>
