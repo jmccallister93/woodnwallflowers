@@ -16,3 +16,10 @@
   grid-template-columns: repeat(1,1fr);
   min-height: 100vh;
 }
+
+@media (max-width: 480px){
+  .app__wrapper{
+    width: 90vw;
+    height: auto;
+  }
+}
