@@ -1,15 +1,15 @@
 .card__wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 50px;
+  gap: 3rem;
 }
 
 .card {
   display: block;
   height: 50vh;
   border: 1px solid;
-  border-radius: 5px;
-  width: calc(20vw - 125px);
+  border-radius: 0.3rem;
+  width: clamp(350px, 25vw, 35rem);
   color: #367e18;
   padding: 0;
   background-image: linear-gradient(#b2ea70, #1e5128);
@@ -54,6 +54,6 @@
 
 .card__text {
   font-family: "DancingScript";
-  font-size: 64px;
+  font-size: 4rem;
   margin-top: 40vh;
 }

@@ -1,26 +1,45 @@
-.app__wrapper{
-    min-height: fit-content;
-}
-.contact{
-    margin: 0;
+.app__wrapper {
+  min-height: fit-content;
 }
 
-.title {
-    display: inline-block;
-    text-align: center;
-    align-content: center;
-    justify-content: center;
-    font-family: "DancingScript";
-    font-size: 68px;
-    color: #3e7c17;
-    transition: 0.5s;
-  }
+.contact {
+  margin: 3rem;
+  padding: 5rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
 
-.content{
-    margin: 25px;
-    padding: 50px;
+.contact-title {
+  display: inline-block;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  font-family: "DancingScript";
+  font-size: 6rem;
+  color: #3e7c17;
+  transition: 0.5s;
+  margin-bottom: .2rem;
+}
+
+.content {
+  margin: 1rem;
+  padding: 4rem;
+  color: #809a6f;
+  font-size: 3rem;
+  text-align: center;
+  height: 40vh;
+
+  & a {
+    text-decoration: none;
+    list-style-type: none;
     color: #809a6f;
-    font-size: 48px;
-    text-align: center;
-    height: 40vh;
+    transition: 0.5s;
+    padding: 0.3rem;
+    border-radius: 5px;
+
+    &:hover{
+        background-color: #3e7c17;
+        color: white;
+    }
+  }
 }

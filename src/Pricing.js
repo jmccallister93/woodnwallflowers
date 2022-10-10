@@ -48,17 +48,13 @@ const Pricing = () => {
             <button className="view-examples">Examples</button>
           </Link>
         </div>
+
         <div className="pricing__rentals">
-          <span className="pricing__subheaders" id="styling-options">
-            Styling Options
-          </span>
-          <br />
-          <br />
-          <span className="pricing__subheaders" id="balloon-garlands">
+          <span className="pricing__subheaders" >
             Balloon Garlands
           </span>
           <div className="pricing__subsection">
-            <ul className="pricing__rentals-ul" id="garland-ft">
+            <ul className="pricing__rentals-ul">
               <div className="pricing__rentals-li-wrapper">
                 <li className="pricing__rentals-li-title">5ft</li>
                 <li className="pricing__rentals-li-price">$150+</li>
@@ -85,10 +81,13 @@ const Pricing = () => {
             <button className="view-examples">Examples</button>
             </Link>
           </div>
-          <span className="pricing__subheaders" id="circle-arch-options">
+        </div>
+
+        <div className="pricing__rentals">
+          <span className="pricing__subheaders" >
             Circle Arch Options
           </span>
-          <div className="pricing__subsection">
+          
             <ul className="pricing__rentals-ul">
               <div className="pricing__rentals-li-wrapper">
                 <li className="pricing__rentals-li-title">180 degrees</li>
@@ -107,8 +106,9 @@ const Pricing = () => {
             {" "}
             <button className="view-examples">Examples</button>
             </Link>
-          </div>
+         
         </div>
+
         <div className="pricing__rentals">
           <span className="pricing__subheaders">Sign Options</span>
           <br />

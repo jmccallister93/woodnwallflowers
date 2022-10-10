@@ -16,7 +16,7 @@
   align-content: center;
   justify-content: center;
   font-family: "DancingScript";
-  font-size: 68px;
+  font-size: 6rem;
   color: #3e7c17;
   transition: 0.5s;
 }
@@ -25,41 +25,41 @@
   display: flex;
   text-decoration: none;
   list-style: none;
-  font-size: 36px;
+  font-size: 2rem;
   text-align: center;
   align-content: center;
   justify-content: center;
 }
 
 .header__li {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
   border-bottom: 1px solid #809a6f;
   color: #809a6f;
   transition: 0.5s;
-  padding: 5px;
+  padding: 0.3rem;
 
   &:hover {
     color: #eef2e6;
     background-color: #3e7c17;
-    border-radius: 10px;
+    border-radius: 0.6rem;
   }
 }
 
 .header__li--active {
   color: #eef2e6;
   background-color: #3e7c17;
-  border-radius: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 5px;
+  border-radius: 0.6rem;
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+  padding: 0.3rem;
 }
 
 //Image Layout
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 0 0.3rem;
     width: 100%;
     justify-content: center;
     overflow: hidden;
@@ -70,11 +70,11 @@
 .column {
   flex: 20%;
   max-width: 25%;
-  padding: 0 4px;
+  padding: 0 0.3rem;
 }
 
 .column img {
-  margin-top: 8px;
+  margin-top: 0.5rem;
   vertical-align: middle;
   width: 100%;
 }
