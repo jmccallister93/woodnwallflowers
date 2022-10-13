@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="home">
       <h1 className="home__header">Welcome to Wood n Wallflowers</h1>
-      <span className="home__subheader">BACKDROPS, BALLOONS, & MORE!</span>
+      <span className="home__subheader">Backdrops, Balloons, & More!</span>
       <Card />
     </div>
   );
