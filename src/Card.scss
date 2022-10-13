@@ -10,17 +10,24 @@
   border: 1px solid;
   border-radius: 0.3rem;
   width: clamp(350px, 25vw, 35rem);
-  color: #367e18;
+  color: #4C4E52;
   padding: 0;
   background-image: linear-gradient(#b2ea70, #1e5128);
   overflow: hidden;
   box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, .3);
   transition: 0.5s;
+  & p{
+    transition: 0.5s;
+  }
 
   &:hover{
     box-shadow: 1px 1px 15px 5px rgba(30, 81, 40, 1);
     scale: 1.05;
+    & p{
+      scale: 1.5;
+    }
   }
+  
 }
 
 #card__gallery {

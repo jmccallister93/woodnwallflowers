@@ -14,17 +14,22 @@
 }
 
 .social__li {
-  padding: 0.13rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
   transition: 0.5s;
 
   &:hover {
-    border-radius: 0.13rem;
+    border-radius: 0.26rem;
     color: #eef2e6;
     background-color: #367e18;
+    scale: 1.2;
   }
   & a {
     text-decoration: none;
-    color: #3e7c17;
+    color: #4C4E52;
+    font-size: 3rem;
 
     &:hover {
       color: #eef2e6;

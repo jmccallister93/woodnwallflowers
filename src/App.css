@@ -8,7 +8,7 @@
 .html, body{
   margin: 0;
   padding: 0;
-  background-color: #FEF5ED;
+  background-color: #FAF9F6;
 }
 
 .app__wrapper{
@@ -19,7 +19,11 @@
 
 @media (max-width: 480px){
   .app__wrapper{
-    width: 90vw;
-    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .content{
+   
   }
 }
