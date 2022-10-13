@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/woodnwallflowers/static/css/main.ec8e548b.css",
+    "main.css": "/woodnwallflowers/static/css/main.561ac8d6.css",
     "main.js": "/woodnwallflowers/static/js/main.3bf4abcb.js",
     "static/media/wedding_board.jpg": "/woodnwallflowers/static/media/wedding_board.ea65c498efdfd58f2454.jpg",
     "static/media/couch.PNG": "/woodnwallflowers/static/media/couch.ace821d2b6b0e5e80c94.PNG",
@@ -25,11 +25,11 @@
     "static/media/wnw_logo.png": "/woodnwallflowers/static/media/wnw_logo.ca4ba95a535a1a5ba43a.png",
     "static/media/DancingScript.woff2": "/woodnwallflowers/static/media/DancingScript.3aad767d1e7a7b126124.woff2",
     "index.html": "/woodnwallflowers/index.html",
-    "main.ec8e548b.css.map": "/woodnwallflowers/static/css/main.ec8e548b.css.map",
+    "main.561ac8d6.css.map": "/woodnwallflowers/static/css/main.561ac8d6.css.map",
     "main.3bf4abcb.js.map": "/woodnwallflowers/static/js/main.3bf4abcb.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec8e548b.css",
+    "static/css/main.561ac8d6.css",
     "static/js/main.3bf4abcb.js"
   ]
 }
