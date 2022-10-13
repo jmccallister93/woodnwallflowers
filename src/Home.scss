@@ -20,21 +20,17 @@
 
 @media (max-width: 480px){
     .content{
-        display: flex;
-        flex-direction: column;
+        display: inline-block;
     }
     .home__header{
         display: none;
     }
     .home{
-        margin-top: 22rem;
+        display: inline-block;
         text-align: center;
         justify-content: center;
     }
     .card__wrapper{
         margin-left: 3%;
-    }
-    .logo{
-
     }
 }

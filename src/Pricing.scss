@@ -92,3 +92,21 @@
         box-shadow: 1px 1px 15px 5px rgba(95, 116, 100, 1);
     }
 }
+
+@media(max-width: 480px){
+    .content{
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    .pricing{
+        margin: 0;
+        padding: 0;
+    }
+    .pricing__wrapper{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+}

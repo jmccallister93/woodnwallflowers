@@ -43,3 +43,35 @@
     }
   }
 }
+
+@media(max-width: 480px){
+    .content{
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        width: 95vw;
+        word-break: break-word;
+
+        & p{
+            margin: 0;
+            padding: 0;
+            width: 95vw;
+        }
+        & a{
+            margin: 0;
+            padding: 0;
+            width: 95vw;
+            font-size: 2.5rem;
+        }
+    }
+    .contact{
+        margin: 0;
+        padding: 0;
+        width: 95vw;
+    }
+    .contact-title{
+        margin: 0;
+        padding: 0;
+        width: 95vw;
+    }
+}

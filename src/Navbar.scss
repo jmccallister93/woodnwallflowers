@@ -48,32 +48,34 @@
 }
 
 @media (max-width: 480px) {
+    .body{
+        margin: 0;
+        padding: 0;
+    }
     .navbar {
-        display: flex;
-        flex-direction: column;
-        margin-top: 10rem;
+        display: inline-block;
+        height: 85vh;
     }
     .logo{
         width: 100vw;
         height: auto;
-        margin-top: 10rem;
+        // margin-top: 10rem;
     }
     .links__wrapper{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        margin-top: -2rem;
+        display: inline-block;
+        padding: 0;
+        margin: 0;
     }
     .links{
         display: flex;
         flex-direction: column;
-        margin-left: -1.85rem;
-        margin-top: 0.5rem;
+        padding: 0;
+        margin: 0;
     }
     .social__ul{
         display: flex;
         flex-direction: row;
-        margin-left: -1.85rem;
+        padding: 0;
+        margin: 0;
     }
 }
