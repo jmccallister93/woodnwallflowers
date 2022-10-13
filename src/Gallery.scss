@@ -17,7 +17,7 @@
   justify-content: center;
   font-family: "DancingScript";
   font-size: 6rem;
-  color: #4C4E52;
+  color: black;
   transition: 0.5s;
 }
 
@@ -34,8 +34,8 @@
 .header__li {
   margin-left: 0.6rem;
   margin-right: 0.6rem;
-  border-bottom: 1px solid #6B695E;
-  color: #6B695E;
+  border-bottom: 1px solid black;
+  color: black;
   transition: 0.2s;
   padding: 0.3rem;
 
@@ -109,6 +109,13 @@
         flex-direction: column;
         padding: 0;
         margin: 0;
+        justify-content: center;
+        align-items: center;
+        
+        & a{
+            margin-top: 0.25rem;
+            background-color: rgba($color: #005d0f, $alpha: 0.25);
+        }
     }
     .row{
         padding: 0;

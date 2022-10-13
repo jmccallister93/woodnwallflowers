@@ -27,17 +27,7 @@ const Contact = () => {
         Facebook - <br />@woodnwallflowers 
         </a>
         <br />
-        <a
-          href="https://www.gmail.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="fa fa-google social"
-        >{" "}
-        Email - <br />woodnwallflowers@gmail.com,
-        </a>
-        <br />
-        <br />
-        THANK YOU!
+      
       </p>
     </div>
     </>

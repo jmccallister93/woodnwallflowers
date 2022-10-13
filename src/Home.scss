@@ -3,7 +3,7 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  color: #4C4E52;
+  color: black;
   height: 72vh;
 }
 
@@ -15,17 +15,19 @@
 .home__subheader {
   font-size: 3rem;
   margin-bottom: 1.3rem;
-  color: #6B695E;
+  color: black;
 }
 
 @media (max-width: 480px){
     .content{
+        margin-top: 2rem;
         display: inline-block;
     }
     .home__header{
         display: none;
     }
     .home__subheader{
+        
         font-family: "DancingScript";
         font-size: 6rem;
     }
