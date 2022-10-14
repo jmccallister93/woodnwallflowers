@@ -5,7 +5,6 @@ import Socials from "./Socials";
 import { slide as Menu } from 'react-burger-menu'
 import burger from '../src/Images/burger01.png'
 
-
 const Navbar = () => {
   const navLogo = <img src={logo} alt="No img" className="logo" />
   const navLinks = (
@@ -35,7 +34,7 @@ const Navbar = () => {
       {navLinks}
       <Menu width={ '100%' } isOpen={ false} customBurgerIcon={ <img src={burger} alt='here lies the thing' /> }>
         <a id="home" className="menu-item" href="/woodnwallflowers">HOME</a>
-        <a id="pricing" className="menu-item" href="/pricing">PRICING</a>
+        <a id="about" className="menu-item" href="/pricing">PRICING</a>
         <a id="gallery" className="menu-item" href="/gallery">GALLERY</a>
         <a id="contact" className="menu-item" href="/contact">CONTACT</a>
         <Socials /> 
