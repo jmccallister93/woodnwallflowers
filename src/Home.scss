@@ -10,6 +10,9 @@
 .home__header {
   font-family: "DancingScript";
   font-size: 6rem;
+  border-radius: 10px;
+  width: fit-content;
+  justify-self: center;
 }
 
 .home__subheader {
@@ -20,7 +23,7 @@
 
 @media (max-width: 480px){
     .content{
-        margin-top: 2rem;
+        
         display: inline-block;
     }
     .home__header{
@@ -29,7 +32,7 @@
     .home__subheader{
         
         font-family: "DancingScript";
-        font-size: 6rem;
+        font-size: 5.5rem;
     }
     .home{
         display: inline-block;
