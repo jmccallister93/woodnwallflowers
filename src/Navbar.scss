@@ -55,8 +55,8 @@
   display: none;
 }
 
-@media (max-width: 480px) {
-  .body {
+@media (max-width: 480px) {  
+  .body, html {
     margin: 0;
     padding: 0;
   }
@@ -106,7 +106,7 @@
     position: fixed;
     top: 15%;
     height: 100%;
-    width: 100%;
+    width: 100vw;
     background: rgba(0, 0, 0, 0.8);
   }
   .bm-overlay {
@@ -114,7 +114,6 @@
     position: fixed;
     top: 15%;
     height: 100%;
-    width: 100px;
     left: 0%;
     opacity: 1;
   }
