@@ -62,7 +62,7 @@
   }
   .navbar {
     display: inline-block;
-    height: 40vh;
+    height: 80vh;
     margin-bottom: 2rem;
   }
   .logo {
@@ -71,7 +71,7 @@
     margin-bottom: 1rem;
   }
   .links__wrapper {
-    display: none;
+    display: inline-block;
     padding: 0;
     margin: 0;
     margin-top: -3rem;
@@ -89,42 +89,42 @@
     padding: 0;
     margin: 0;
     & a{
-        color: white;
+        color: black;
     }
   }
  
-  .bm-burger-button {
-    display: inline-block;
-    width: 25%;
-    position: fixed;
-    height: 10%;
-    right: 1%;
-    top: 0;
-    background-color: rgba(129, 129, 129, 0.5);
-    border-radius: 10px;
-  }
-  .bm-menu-wrap {
-    display: block;
-    position: fixed;
-    top: 15%;
-    height: 100%;
-    width: 100vw;
-    background: rgba(0, 0, 0, 0.8);
-  }
-  .bm-overlay {
-    display: inline-block;
-    position: fixed;
-    top: 15%;
-    height: 100%;
-    left: 0%;
-    opacity: 1;
-  }
+//   .bm-burger-button {
+//     display: inline-block;
+//     width: 25%;
+//     position: fixed;
+//     height: 10%;
+//     right: 1%;
+//     top: 0;
+//     background-color: rgba(129, 129, 129, 0.5);
+//     border-radius: 10px;
+//   }
+//   .bm-menu-wrap {
+//     display: block;
+//     position: fixed;
+//     top: 15%;
+//     height: 100%;
+//     width: 100vw;
+//     background: rgba(0, 0, 0, 0.8);
+//   }
+//   .bm-overlay {
+//     display: inline-block;
+//     position: fixed;
+//     top: 15%;
+//     height: 100%;
+//     left: 0%;
+//     opacity: 1;
+//   }
 
-  .bm-item {
-    text-decoration: none;
-    list-style-type: none;
-    font-size: 3rem;
-    color: white;
-    padding: 5%;
-  }
+//   .bm-item {
+//     text-decoration: none;
+//     list-style-type: none;
+//     font-size: 3rem;
+//     color: white;
+//     padding: 5%;
+//   }
 }
