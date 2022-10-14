@@ -35,7 +35,7 @@ const Navbar = () => {
       {navLinks}
       <Menu width={ '100%' } isOpen={ false} customBurgerIcon={ <img src={burger} alt='here lies the thing' /> }>
         <a id="home" className="menu-item" href="/woodnwallflowers">HOME</a>
-        <a id="about" className="menu-item" href="/pricing">PRICING</a>
+        <a id="pricing" className="menu-item" href="/pricing">PRICING</a>
         <a id="gallery" className="menu-item" href="/gallery">GALLERY</a>
         <a id="contact" className="menu-item" href="/contact">CONTACT</a>
         <Socials /> 
