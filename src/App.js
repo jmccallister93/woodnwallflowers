@@ -10,7 +10,7 @@ import GallerySigns from "./GallerySigns";
 import Home from "./Home";
 import Navbar from "./Navbar";
 import Pricing from "./Pricing";
-import ScrollToTop from "./ScrollToTop";
+
 
 function App() {
   return (

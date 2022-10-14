@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Socials from "./Socials";
 import { slide as Menu } from 'react-burger-menu'
 import burger from '../src/Images/burger01.png'
-import ScrollToTop from "./ScrollToTop";
+
 
 const Navbar = () => {
   const navLogo = <img src={logo} alt="No img" className="logo" />
