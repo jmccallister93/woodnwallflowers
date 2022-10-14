@@ -19,7 +19,7 @@ function App() {
         <div className="app__wrapper">
           <Navbar />
           <div className="content">
-            <ScrollToTop>
+            
               <Routes>
                 <Route path="/woodnwallflowers" element={<Home />} />
                 <Route path="/pricing" element={<Pricing />} />
@@ -30,7 +30,7 @@ function App() {
                 <Route path="/gallery/signs" element={<GallerySigns />} />
                 <Route path="/contact" element={<Contact />} />
               </Routes>
-            </ScrollToTop>
+            
           </div>
         </div>
       </div>
