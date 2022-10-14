@@ -12,7 +12,6 @@ import Navbar from "./Navbar";
 import Pricing from "./Pricing";
 import ScrollToTop from "./ScrollToTop";
 
-
 function App() {
   return (
     <Router>
@@ -20,23 +19,22 @@ function App() {
         <div className="app__wrapper">
           <Navbar />
           <div className="content">
-          
-            <Routes>
-              <Route path="/woodnwallflowers" element={<Home />} />
-              <Route path="/pricing" element={<Pricing />} />
-              <Route path="/gallery" element={<Gallery />} />
-              <Route path="/gallery/rentals" element={<GalleryRentals />} />
-              <Route path="/gallery/balloons" element={<GalleryBalloons />} />
-              <Route path="/gallery/circles" element={<GalleryCircles />} />
-              <Route path="/gallery/signs" element={<GallerySigns />} />
-              <Route path="/contact" element={<Contact />} />
-            </Routes>
-            
+            <ScrollToTop>
+              <Routes>
+                <Route path="/woodnwallflowers" element={<Home />} />
+                <Route path="/pricing" element={<Pricing />} />
+                <Route path="/gallery" element={<Gallery />} />
+                <Route path="/gallery/rentals" element={<GalleryRentals />} />
+                <Route path="/gallery/balloons" element={<GalleryBalloons />} />
+                <Route path="/gallery/circles" element={<GalleryCircles />} />
+                <Route path="/gallery/signs" element={<GallerySigns />} />
+                <Route path="/contact" element={<Contact />} />
+              </Routes>
+            </ScrollToTop>
           </div>
         </div>
       </div>
     </Router>
-    
   );
 }
 
