@@ -2,6 +2,8 @@ import "./Navbar.scss";
 import logo from "./Images/wnw_logo.png";
 import { Link } from "react-router-dom";
 import Socials from "./Socials";
+import { slide as Menu } from 'react-burger-menu'
+import burger from '../src/Images/burger01.png'
 
 const Navbar = () => {
   const navLogo = <img src={logo} alt="No img" className="logo" />
@@ -27,8 +29,15 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
+    
       {navLogo}
       {navLinks}
+      <Menu width={ '100%' } isOpen={ false} customBurgerIcon={ <img src={burger} /> }>
+        <a id="home" className="menu-item" href="/woodnwallflowers">HOME</a>
+        <a id="about" className="menu-item" href="/pricing">PRICING</a>
+        <a id="gallery" className="menu-item" href="/gallery">GALLERY</a>
+        <a id="contact" className="menu-item" href="/contact">CONTACT</a>
+      </Menu>
     </div>
   );
 };

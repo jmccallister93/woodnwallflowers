@@ -14,25 +14,23 @@
   width: fit-content;
 }
 
-.links__wrapper{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
+.links__wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
 }
 
 .links {
-  display: flex; 
+  display: flex;
   text-decoration: none;
   list-style-type: none;
   gap: 0.6rem;
   text-align: center;
   justify-content: center;
   align-items: center;
-  
-  
 }
 
 .links-item {
@@ -47,39 +45,81 @@
   }
 }
 
+.bm-menu-wrap {
+  display: none;
+}
+.bm-burger-button {
+  display: none;
+}
+.bm-overlay {
+  display: none;
+}
+
 @media (max-width: 480px) {
-    .body{
-        margin: 0;
-        padding: 0;
-    }
-    .navbar {
-        display: inline-block;
-        height: 80vh;
-        margin-bottom: 2rem;;
-    }
-    .logo{
-        width: 100vw;
-        height: auto;
-        margin-bottom: 1rem;
-    }
-    .links__wrapper{
-        display: inline-block;
-        padding: 0;
-        margin: 0;
-        margin-top: -3rem;
-    }
-    .links{
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-        margin: 0;
-        margin-top: 0.25rem;
-        
-    }
-    .social__ul{
-        display: flex;
-        flex-direction: row;
-        padding: 0;
-        margin: 0;
-    }
+  .body {
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    display: inline-block;
+    height: 40vh;
+    margin-bottom: 2rem;
+  }
+  .logo {
+    width: 100vw;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  .links__wrapper {
+    display: none;
+    padding: 0;
+    margin: 0;
+    margin-top: -3rem;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    margin-top: 0.25rem;
+  }
+  .social__ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+  }
+  .bm-burger-button {
+    display: inline-block;
+    width: 25%;
+    position: fixed;
+    height: 15%;
+    right: 2%;
+    top: 0;
+  }
+  .bm-menu-wrap {
+    display: block;
+    position: fixed;
+    top: 15%;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .bm-overlay {
+    display: inline-block;
+    position: fixed;
+    top: 15%;
+    height: 100%;
+    width: 100px;
+    left: 0%;
+    opacity: 1;
+  }
+
+  .bm-item {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 3rem;
+    color: white;
+    padding: 5%;
+  }
 }
